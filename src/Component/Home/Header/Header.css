@@ -1,0 +1,11 @@
+.background {
+  background-color: #282c34;
+  position: relative;
+}
+.txt {
+  color: rgb(247, 243, 243);
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 100%;
+}
