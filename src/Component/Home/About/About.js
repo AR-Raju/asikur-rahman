@@ -8,7 +8,7 @@ const About = () => {
       <h2 className="text-center py-5">About</h2>
       <div className="row">
         <div className="col-md-5">
-          <img style={{ height: "auto", width: "20vw" }} src={img} alt="" />
+          <img style={{ height: "auto", width: "80%" }} src={img} alt="" />
           <h3 className="text-center py-3">Who is this guy?</h3>
           <p>
             I'm a Front-End Developer.

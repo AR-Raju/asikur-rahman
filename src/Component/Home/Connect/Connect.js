@@ -33,6 +33,9 @@ const Connect = () => {
           </Link>
         </div>
       </div>
+      <footer className="bg-secondary text-center py-2">
+        Copy Right {new Date().getFullYear()} All Goes To Asikur Rahman
+      </footer>
     </div>
   );
 };
