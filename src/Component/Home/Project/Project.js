@@ -43,12 +43,14 @@ const Project = () => {
   ];
   return (
     <div className="bg" id="project">
-      <div className="container">
+      <div className="container py-5">
         <div className="row">
-          <h2 className="text-center py-5">Project</h2>
-          {projects.map((prj) => (
-            <ProjectDetails project={prj}></ProjectDetails>
-          ))}
+          <h1 className="text-center pt-5 pb-3">PORTFOLIO</h1>
+          <div className="py-5">
+            {projects.map((prj) => (
+              <ProjectDetails project={prj}></ProjectDetails>
+            ))}
+          </div>
           {/* <div className="col-md-6"> */}
 
           {/* <div id="solution">

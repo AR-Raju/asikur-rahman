@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -30,7 +31,7 @@ const Navbar = () => {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#project">
-                Project
+                Portfolio
               </a>
             </li>
             <li class="nav-item">
@@ -42,6 +43,17 @@ const Navbar = () => {
               <a class="nav-link" href="#contact">
                 Contact
               </a>
+            </li>
+            <li class="nav-item ml-3">
+              <Link
+                to={{
+                  pathname:
+                    "https://drive.google.com/uc?id=1tYidnBETBmLSw4o9dpf2gyEp0EG8P_VT&export=download",
+                }}
+                target="_blank"
+              >
+                <button className="btn btn-info">Resume</button>
+              </Link>
             </li>
           </ul>
         </div>

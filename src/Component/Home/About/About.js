@@ -4,9 +4,9 @@ import Skillbar from "../Skillbar/Skillbar";
 
 const About = () => {
   return (
-    <div className="container pb-5" id="about">
-      <h2 className="text-center py-5">About</h2>
-      <div className="row">
+    <div className="container py-5" id="about">
+      <h1 className="text-center pt-5 pb-3">ABOUT</h1>
+      <div className="row py-5">
         <div className="col-md-5">
           <img style={{ height: "auto", width: "80%" }} src={img} alt="" />
           <h3 className="text-center py-3">Who is this guy?</h3>
