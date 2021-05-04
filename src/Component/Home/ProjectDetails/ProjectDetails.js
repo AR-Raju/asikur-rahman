@@ -23,7 +23,10 @@ const ProjectDetails = (props) => {
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </Link>
                 <Link className="px-3" to={{ pathname: git }} target="_blank">
-                  <FontAwesomeIcon icon={faGithub} />
+                  <FontAwesomeIcon
+                    style={{ height: "auto", width: "20px" }}
+                    icon={faGithub}
+                  />
                 </Link>
               </div>
             </div>
