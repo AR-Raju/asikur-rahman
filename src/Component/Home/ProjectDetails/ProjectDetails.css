@@ -1,0 +1,12 @@
+.animation {
+  position: relative;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 300px;
+  }
+}

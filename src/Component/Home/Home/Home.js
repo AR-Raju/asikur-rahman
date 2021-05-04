@@ -6,6 +6,7 @@ import About from "../About/About";
 import Project from "../Project/Project";
 import Blog from "../Blog/Blog";
 import Contact from "../Contact/Contact";
+import Connect from "../Connect/Connect";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Project></Project>
       <Blog></Blog>
       <Contact></Contact>
+      <Connect></Connect>
     </div>
   );
 };
