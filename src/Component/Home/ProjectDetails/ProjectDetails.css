@@ -1,13 +1,13 @@
 .animation {
   position: relative;
-  animation: mymove 5s infinite;
+  animation: mymove 2s infinite;
 }
 @keyframes mymove {
   from {
     left: 0px;
   }
   to {
-    left: 300px;
+    left: 600px;
   }
 }
 h1 {

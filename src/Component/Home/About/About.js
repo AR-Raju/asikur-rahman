@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../../images/profile-2.png";
+import img from "../../../images/profile-2.jpeg";
 import Skillbar from "../Skillbar/Skillbar";
 
 const About = () => {
