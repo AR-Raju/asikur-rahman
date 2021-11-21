@@ -4,32 +4,37 @@ import solutionMakers from "../../../images/solutionMakers.JPG";
 import myGrocery from "../../../images/myGrocery.JPG";
 import privateTeam from "../../../images/privateTeam.JPG";
 import penguin from "../../../images/penguin fasion.JPG";
+import ebuying from "../../../images/e-buying.png";
 import { Link } from "react-router-dom";
 import ProjectDetails from "../ProjectDetails/ProjectDetails";
 
 const Project = () => {
   const projects = [
     {
+      name: "E-Buying",
+      img: ebuying,
+      des: "This is an ecommerce website where some one can add product to cart, review items, proceed order and his infomation will be saved in the mongodb database.",
+      live: "https://e-buying-f3f9b.web.app/",
+      git: "https://github.com/AR-Raju/e-buying",
+    },
+    {
       name: "Solution Makers",
       img: solutionMakers,
-      des:
-        "There are many sections in the home page. sevice and reviews are dynamic part rest are static.In admin panel there are add service, add review and add admin part",
+      des: "There are many sections in the home page. sevice and reviews are dynamic part rest are static.In admin panel there are add service, add review and add admin part",
       live: "https://my-solution-makers.web.app/",
       git: "https://github.com/AR-Raju/solution-makers",
     },
     {
       name: "My Grocery",
       img: myGrocery,
-      des:
-        "In this app all my data are from my rajudb database and products collection. first of all there is a home page where products are displayed and if we click on buy now we can access that product only. There is an Admin option where any loggedIn person can add product.",
+      des: "In this app all my data are from my rajudb database and products collection. first of all there is a home page where products are displayed and if we click on buy now we can access that product only. There is an Admin option where any loggedIn person can add product.",
       live: "https://raju-agro.web.app",
       git: "https://github.com/AR-Raju/my-grocery",
     },
     {
       name: "Private Team Detective",
       img: privateTeam,
-      des:
-        "In the home page we can see lots of football team by clicking the Explore button we can see the details of that particular team",
+      des: "In the home page we can see lots of football team by clicking the Explore button we can see the details of that particular team",
       live: "https://vibrant-yalow-9ec8a0.netlify.app/",
       git: "https://github.com/AR-Raju/football-team",
     },

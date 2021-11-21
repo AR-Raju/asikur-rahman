@@ -1,0 +1,14 @@
+.grid-item2 {
+  width: 100%;
+  display: grid;
+  margin: 3rem auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  gap: 100px;
+  row-gap: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .grid-item2 {
+    width: 90%;
+  }
+}
